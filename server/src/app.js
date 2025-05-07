@@ -10,7 +10,7 @@ import commentRoutes from "./routes/comment.js";
 
 const app = express();
 const corsOptions = {
-  origin: ["http://localhost:4600", "https://insta-shot-liart.vercel.app"],
+  origin: ["http://localhost:4600", "https://insta-shot-01.vercel.app"],
   optionsSuccessStatus: 200,
   methods: ["GET", "POST", "PATCH", "DELETE"],
   credentials: true,
